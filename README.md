@@ -1,6 +1,1 @@
-LocalFlag = 
-IF(
-    ISBLANK('DeineTabelle'[Column44]),
-    0,
-    IF(CONTAINSSTRING('DeineTabelle'[Column44], "LOCAL"), 1, 0)
-)
+if [Column44] <> null and Value.Is([Column44], type text) and Text.Contains(Text.Upper([Column44]), "LOCAL") then 1 else 0

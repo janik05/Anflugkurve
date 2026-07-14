@@ -1,1 +1,1 @@
-AnzahlLocal = SUMX(RELATEDTABLE('ExcelZeilenTabelle'), 'ExcelZeilenTabelle'[LOCABenutzerdefiniert])
+AnzahlLocal = SUMX(RELATEDTABLE('Cluster of Responsible Product'), 'Cluster of Responsible Product'[LOCABenutzerdefiniert])
